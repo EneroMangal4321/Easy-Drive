@@ -19,9 +19,5 @@ var rijlesVrachtwagen40Uur = 1500;
 
 //Berekenen hoeveel er in je winkelwagentje zit
 function bereken(){
-    var pakketten = [theorieAuto, theorieMotor, theorieVrachtwagen, rijlesAuto15Uur, rijlesAuto30Uur, rijlesAuto40Uur, rijlesMotor15Uur, rijlesMotor30Uur,
-    rijlesMotor40Uur, rijlesVrachtwagen15Uur, rijlesVrachtwagen30Uur, rijlesVrachtwagen40Uur ];
-    var welke = document.getElementById('').Value;
-
-    document.getElementById('').innerHTML = pakketten[welke];
+    
 }
