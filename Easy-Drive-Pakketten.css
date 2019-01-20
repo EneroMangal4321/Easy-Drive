@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(images/leavesOnRoad.png) no-repeat;
+    background: linear-gradient(175deg, #ffb3b3, #ff1a1a);
     background-size: cover;
     background-attachment: fixed;
 }
