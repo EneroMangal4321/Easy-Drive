@@ -11,12 +11,12 @@ var vrachtwagen50 =
 var vrachtwagenlos1 = 
 var theorieexamenpraktijkvracht = 
 var theorieexamenvracht =
-var motor10 
-var motor20
-var motor50
-var motorlos1
-var theorieexamenpraktijkmotor
-var theorieexamenmotor
+var motor10 =
+var motor20 = 
+var motor50 =
+var motorlos1 = 
+var theorieexamenpraktijkmotor = 
+var theorieexamenmotor = 
 
 
 
