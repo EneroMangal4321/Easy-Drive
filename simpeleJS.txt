@@ -1,0 +1,8 @@
+
+
+        <script>
+            var x = 1;
+            function myFunction() {
+                document.getElementById('demo').innerHTML = x * 350;
+            }
+        </script>
