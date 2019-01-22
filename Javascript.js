@@ -1,23 +1,42 @@
-//Alle pakketten
+//Gemaakt door Enero & Ricardo
 var auto10 = 
-var auto20
-var auto50
-var autolos1
-var theorieexamenpraktijk
-var theorieexamen
-var vrachtwagen10
-var vrachtwagen20
-var vrachtwagen50
-var vrachtwagenlos1
-var theorieexamenpraktijkvracht
-var theorieexamenvracht 
-var motor10     =
-var motor20 =
-var motor50 =
-var motorlos1   =
-var theorieexamenpraktijkmotor  =
-var theorieexamenmotor = 
+var auto20 =    
+var auto50 =   
+var autoLos = 
+var autoTheorie_Praktijk = 
+var autoTheorie = 
+var Vracht10 = 
+var Vracht20 = 
+var Vracht50 = 
+var VrachtLos = 
+var VrachtTheorie_Praktijk = 
+var VrachtTheorie = 
+var Motor10 =  
+var Motor20 =  
+var Motor50 =  
+var MotorLos = 
+var MotorTheorie_Praktijk = 
+var MotorTheorie = 
 
+
+document.getElementById('').value;
+document.getElementById('').value;
+document.getElementById('').value;
+document.getElementById('').value;
+document.getElementById('').value;
+document.getElementById('').value;
+document.getElementById('').value;
+document.getElementById('').value;
+document.getElementById('').value;
+document.getElementById('').value;
+document.getElementById('').value;
+document.getElementById('').value;
+document.getElementById('').value;
+document.getElementById('').value;
+document.getElementById('').value;
+document.getElementById('').value;
+document.getElementById('').value;
+document.getElementById('').value;
 
 
 //Einde alle pakketten
