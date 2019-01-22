@@ -1,33 +1,145 @@
-/*var auto10 = 350;
-var auto20 = 700;   
-var auto50 = 1750;  
-var autoLos =  50;
-var autoTheorie_Praktijk = 120;
-var autoTheorie = 90;
-var Vracht10 = 450;
-var Vracht20 = 900;
-var Vracht50 = 2250;
-var VrachtLos = 60
-var VrachtTheorie_Praktijk = 210;
-var VrachtTheorie = 180;
-var Motor10 =  250;
-var Motor20 =  500;
-var Motor50 =  1250;
-var MotorLos = 40;
-var MotorTheorie_Praktijk = 100;
-var MotorTheorie = 70;*/
 
-function bereken(x, y) {
+
+function AUTO10(x, y) {
     if (y === undefined){
         y = 1;
     }
     return x*y;
 }
-document.getElementsByClassName('test').innerHTML = bereken();
+document.getElementsById("resultaat").innerHTML = AUTO10();
 
+function AUTO20(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = AUTO20();
 
+function AUTO50(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = AUTO50();
 
+function AUTO_LOS(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = AUTO_LOS();
 
+function AUTO_TP(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = AUTO_TP();
 
+function AUTO_T(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = AUTO_T();
 
+function VRACHT10(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = VRACHT10();
 
+function VRACHT20(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = VRACHT20();
+
+function VRACHT50(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = VRACHT50();
+
+function VRACHT_LOS(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = VRACHT_LOS();
+
+function VRACHT_TP(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = VRACHT_TP();
+
+function VRACHT_T(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = VRACHT_T();
+
+function MOTOR10(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = MOTOR10();
+
+function MOTOR20(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = MOTOR20();
+
+function MOTOR50(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = MOTOR50();
+
+function MOTOR_LOS(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = MOTOR_LOS();
+
+function MOTOR_TP(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = MOTOR_TP();
+
+function MOTOR_T(x, y) {
+    if (y === undefined){
+        y = 1;
+    }
+    return x*y;
+}
+document.getElementsById("resultaat").innerHTML = MOTOR_T();
