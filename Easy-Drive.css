@@ -38,20 +38,12 @@ body{
 
 .containerfirstpage .boxfirstpage .icon{
   width: 100%;
-<<<<<<< HEAD
   height: 100%;
 
   transition: 0.5s;
   transform-origin: top;
   transform: translateY(0) rotateX(0deg);
 
-=======
-  height: 110%;
-  color: #666699;
-  transition: 0.5s;
-  transform-origin: top;
-  transform: translateY(0) rotateX(0deg);
->>>>>>> f9abcfdd9817bf7742bb73a573e198c47ab4ce37
   box-shadow: 0 5px 15px -5px #00000070;
 }
 
@@ -137,13 +129,8 @@ div .details a{
 }
 
 #navbar li.current a, #navbar a:hover{
-<<<<<<< HEAD
   color: #FE2E2E;
   border-bottom: 3px solid #33ccff;
-=======
-  color: #666699;
-  border-bottom: 5px solid #666699;
->>>>>>> 655c60ceb2f06fcc8f51326112f2c951101a15d5
   padding-bottom: 3px;
 }
 
@@ -151,11 +138,7 @@ div .details a{
 
 #showcase{
   background:url('./images/showcase1.jpg') no-repeat center center;
-<<<<<<< HEAD
   border-bottom: 1px solid #33ccff;
-=======
-  border-bottom: 5px solid #666699;
->>>>>>> 655c60ceb2f06fcc8f51326112f2c951101a15d5
   margin-bottom: 0px;
 }
 
