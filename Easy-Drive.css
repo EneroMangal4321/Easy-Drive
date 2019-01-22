@@ -354,6 +354,12 @@ div .details a{
   float: right;
 }
 
+/* shoppingcart */
+
+.shoppingcart{
+  background: linear-gradient(to top, #33ccff 0%, #666699 100%);
+}
+
 
 
 
