@@ -1,16 +1,25 @@
 //Alle pakketten
-var theorieAuto = 30;
-var theorieMotor = 30;
-var theorieVrachtwagen = 30;
-var rijlesAuto15Uur = 600;
-var rijlesAuto30Uur = 1200;
-var rijlesAuto40Uur = 1500;
-var rijlesMotor15Uur = 600;
-var rijlesMotor30Uur = 1200;
-var rijlesMotor40Uur = 1500;
-var rijlesVrachtwagen15Uur = 600;
-var rijlesVrachtwagen30Uur = 1200;
-var rijlesVrachtwagen40Uur = 1500;
+var auto10
+var auto20
+var auto50
+var autolos1
+var theorieexamenpraktijk
+var theorieexamen
+var vrachtwagen10
+var vrachtwagen20
+var vrachtwagen50
+var vrachtwagenlos1
+var theorieexamenpraktijkvracht
+var theorieexamenvracht
+var motor10 
+var motor20
+var motor50
+var motorlos1
+var theorieexamenpraktijkmotor
+var theorieexamenmotor
+
+
+
 //Einde alle pakketten
 
 //pakketten veranderen naar floats
@@ -18,6 +27,6 @@ var rijlesVrachtwagen40Uur = 1500;
 //Einde van floats maken
 
 //Berekenen hoeveel er in je winkelwagentje zit
-function bereken(){
+function bereken() {
     
 }
