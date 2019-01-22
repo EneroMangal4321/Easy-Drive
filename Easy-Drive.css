@@ -175,36 +175,37 @@ div .details a{
 .headerdashboard{
   width: 100%;
   height: 120px;
-  background: #d9d9d9;
-  color: black;
+  background: #666699 ;
+  color: white;
 }
 
 .sidebardashboard{
   width: 300px;
-  height: 262px;
-  background: #d9d9d9  ;
+  height: 400px;
+  background: #666699 ;
   float: left;
-  margin-top: 67px;
+  margin-top: 0px;
 }
 
 .datadashboard{
  height: 400px;
-  background: #ff4d4d;
+  background: #33ccff ;
   font-family: helvetica;
   font-size: 25px;
 }
 
 .profildashboard{
   width: 100px;
+
 }
 
 .sidebardashboard .uldashboard .lidashboard{
-  padding: 20px;
-  border-bottom: 2px solid  #ff4d4d;
+  padding: 50px;
+ list-style-type: none;
 }
 
  .uldashboard .lidashboard:hover{
-  background: #ff4d4d;
+  background: #33ccff;
 
 }
 
@@ -216,7 +217,7 @@ div .details a{
 }
 .containerdashboard {
   width: 99%;
-  background-color: #ddd;
+  background-color: #666699;
   
 }
 
@@ -225,12 +226,18 @@ div .details a{
   padding: 2px;
   color: white;
 }
-.Rijlessen {width: 60%; background-color: #ff4d4d;}
-.Theorie {width: 100%; background-color: #ff4d4d;}
-.Parkeren {width: 70%; background-color: #ff4d4d;}
-.Omkeer {width: 50%; background-color: #ff4d4d;}
-.Stop {width: 60%; background-color: #ff4d4d;}
-.Navigatie {width: 60%; background-color: #ff4d4d;}
+.Rijlessen {width: 60%; background-color: #33ccff;}
+.Theorie {width: 100%; background-color: #33ccff;}
+.Parkeren {width: 70%; background-color: #33ccff;}
+.Omkeer {width: 50%; background-color: #33ccff;}
+.Stop {width: 60%; background-color: #33ccff;}
+.Navigatie {width: 60%; background-color: #33ccff;}
+
+.Baan {width: 90%; background-color: #33ccff ;}
+.Enero {width: 50%; background-color: #33ccff;}
+.Ricardo {width: 70%; background-color: #33ccff;}
+.David {width: 30%; background-color: #33ccff;}
+.Amanvir {width: 99%; background-color: #33ccff;}
 
 .autodashboard{
   width: 100%;
@@ -330,9 +337,7 @@ div .details a{
  width: 25%;
 }
 
-.Lessenpakketten a{
-  font-size: 14px;
-}
+
 
 @media screen and (max-width: 980px) {
     .colpakketten{
@@ -536,16 +541,5 @@ div .details a{
   left:-10%;
 }
 
-@keyframes aaa{
-  0%{
-    left: -110%;
-    top: 90%;
-  }50%{
-    left: 10%;
-    top: -30%;
-  }100%{
-      top: -10%;
-      left:-10%;
-      }
-}
+
 
