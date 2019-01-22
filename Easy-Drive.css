@@ -101,7 +101,7 @@ div .details a{
 /* header */
 
 #main-header{
-  border-bottom:1px solid #FE2E2E
+  border-bottom:5px solid #666699;
 }
 
 .highlight{
@@ -133,12 +133,17 @@ div .details a{
 
 #navbar a{
   text-decoration: none;
-  color: #888;
+  color: #33ccff;
 }
 
 #navbar li.current a, #navbar a:hover{
+<<<<<<< HEAD
   color: #FE2E2E;
   border-bottom: 3px solid #33ccff;
+=======
+  color: #666699;
+  border-bottom: 5px solid #666699;
+>>>>>>> 655c60ceb2f06fcc8f51326112f2c951101a15d5
   padding-bottom: 3px;
 }
 
@@ -146,7 +151,11 @@ div .details a{
 
 #showcase{
   background:url('./images/showcase1.jpg') no-repeat center center;
+<<<<<<< HEAD
   border-bottom: 1px solid #33ccff;
+=======
+  border-bottom: 5px solid #666699;
+>>>>>>> 655c60ceb2f06fcc8f51326112f2c951101a15d5
   margin-bottom: 0px;
 }
 
@@ -361,6 +370,18 @@ div .details a{
 }
 #winkelmandje {
   float: right;
+}
+
+/* shoppingcart */
+
+.bodyshoppingcart{
+  height: 500px;
+  width: 100%;
+}
+
+.divshoppingcart{
+  background: linear-gradient(to top, #33ccff 0%, #666699 100%);
+  height: 200%;
 }
 
 
