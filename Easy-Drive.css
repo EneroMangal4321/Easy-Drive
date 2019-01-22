@@ -9,7 +9,7 @@ body{
   margin: 0px;
   padding: 0px;
   background: linear-gradient(to top, #33ccff 0%, #666699 100%);
-  
+
 }
 
 /* container */
@@ -38,17 +38,26 @@ body{
 
 .containerfirstpage .boxfirstpage .icon{
   width: 100%;
+<<<<<<< HEAD
+  height: 100%;
+
+  transition: 0.5s;
+  transform-origin: top;
+  transform: translateY(0) rotateX(0deg);
+
+=======
   height: 110%;
   color: #666699;
   transition: 0.5s;
   transform-origin: top;
   transform: translateY(0) rotateX(0deg);
+>>>>>>> f9abcfdd9817bf7742bb73a573e198c47ab4ce37
   box-shadow: 0 5px 15px -5px #00000070;
 }
 
 .containerfirstpage .boxfirstpage:hover .icon{
   transform: translateY(100%) rotateX(90deg);
- 
+
 }
 
 .containerfirstpage .boxfirstpage .icon .fa{
@@ -138,7 +147,7 @@ div .details a{
 #showcase{
   background:url('./images/showcase1.jpg') no-repeat center center;
   border-bottom: 1px solid #FE2E2E;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 #showcase .row{
@@ -218,7 +227,7 @@ div .details a{
 .containerdashboard {
   width: 99%;
   background-color: #666699;
-  
+
 }
 
 .skills {
@@ -366,7 +375,7 @@ div .details a{
 /*inloggen */
 
 
-  
+
 .containerinloggen{
   width: 100%;
   min-height: 100vh;
@@ -390,8 +399,8 @@ div .details a{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
- 
-  
+
+
   background-color: #e6e6e6;
   border-radius: 10px;
   padding: 40px;
@@ -420,7 +429,7 @@ div .details a{
 
 .tekstboxtop{
   width: 90%;
-  
+
 }
 
 .tekstboxtop input{
@@ -448,7 +457,7 @@ div .details a{
   color: black;
   font-weight: 600;
   background-color: #e6e6e6;
-  border-bottom: 1px solid #666699; 
+  border-bottom: 1px solid #666699;
 }
 
 .buttoninloggen input{
@@ -552,3 +561,50 @@ div .details a{
 
 
 
+/* Services */
+
+#info{
+  background:#333 url('../images/info-bg.jpg') no-repeat;
+  color:#fff;
+}
+
+#info h2{
+  font-size:35px;
+  margin:0;
+  padding-bottom:10px;
+}
+
+#info ul{
+  list-style:none;
+  padding:0;
+}
+
+#info li{
+  line-height:2em;
+  font-size:20px;
+}
+
+/* Over Ons*/
+
+#features h2{
+  font-size:35px;
+  margin:0;
+  padding-bottom:10px;
+}
+
+#features p{
+  color:#888;
+  margin:0;
+  margin-bottom:40px;
+}
+
+#features .fa{
+  font-size:60px;
+  color:#56a79a;
+}
+
+/* Footer */
+#main-footer{
+  background:#56a79a;
+  color:#fff;
+}
