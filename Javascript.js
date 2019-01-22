@@ -17,7 +17,7 @@ var Motor50 =
 var MotorLos = 
 var MotorTheorie_Praktijk = 
 var MotorTheorie = 
-
+<button id="MotorTheorie" onclick="bereken()">Kopen</button>
 
 document.getElementById('').value;
 document.getElementById('').value;
