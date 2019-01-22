@@ -38,17 +38,12 @@ body{
 
 .containerfirstpage .boxfirstpage .icon{
   width: 100%;
-
   height: 100%;
 
   transition: 0.5s;
   transform-origin: top;
   transform: translateY(0) rotateX(0deg);
-  height: 110%;
-  color: #666699;
-  transition: 0.5s;
-  transform-origin: top;
-  transform: translateY(0) rotateX(0deg);
+
   box-shadow: 0 5px 15px -5px #00000070;
 }
 
@@ -98,8 +93,7 @@ div .details a{
 /* header */
 
 #main-header{
-  background: linear-gradient(to top, #33ccff 0%, #666699 100%);
-  
+  border-bottom:5px solid #666699;
 }
 
 .highlight{
@@ -135,6 +129,7 @@ div .details a{
 }
 
 #navbar li.current a, #navbar a:hover{
+<<<<<<< HEAD
 
   color: #FE2E2E;
   border-bottom: 3px solid #33ccff;
@@ -142,6 +137,10 @@ div .details a{
   color: #666699;
   border-bottom: 5px solid #666699;
 
+=======
+  color: #FE2E2E;
+  border-bottom: 3px solid #33ccff;
+>>>>>>> 021083197522905955650eeb95a7bd54712acc0b
   padding-bottom: 3px;
 }
 
@@ -149,6 +148,7 @@ div .details a{
 
 #showcase{
   background:url('./images/showcase1.jpg') no-repeat center center;
+<<<<<<< HEAD
 
   border-bottom: 10px solid #666699;
 
@@ -156,6 +156,9 @@ div .details a{
 
   border-bottom: 5px solid #666699;
 
+=======
+  border-bottom: 1px solid #33ccff;
+>>>>>>> 021083197522905955650eeb95a7bd54712acc0b
   margin-bottom: 0px;
 }
 
@@ -498,6 +501,27 @@ div .details a{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footerfirstpage */
 
 #footerfirstpage{
@@ -597,9 +621,12 @@ div .details a{
   color:#56a79a;
 }
 
-/* Footerwebsite */
+/* Footer */
 #main-footer{
+<<<<<<< HEAD
   background: linear-gradient(to bottom, #33ccff 0%, #666699 100%);
+=======
+>>>>>>> 021083197522905955650eeb95a7bd54712acc0b
   background:#33ccff;
   color:#fff;
 }
