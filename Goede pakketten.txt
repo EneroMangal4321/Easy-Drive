@@ -1,0 +1,266 @@
+<!--Gemaakt door Enero-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Pakketten </title>
+        <meta name="vieuwport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="Javascript.js"></script>
+        <link rel="stylesheet" href="Easy-Drive.css">
+    </head>
+    <body class="pakketten-Body">
+        <header>
+            <!-- nav -->
+            <nav id="navbar">
+                <ul>
+                    <li><a href="firstpage-easy-drive.html">Home</a></li>
+                    
+                    
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+            <div class="prijs-tablepakketten">
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                            <h2>Auto</h2>
+                        <ul>
+                            <li><strong>10</strong> Lessen € 350,-. ||<b>NU 5% KORTING</b></li>
+                            <li><strong>20</strong> Lessen € 700,-. ||<b>NU 9% KORTING</b></li>
+                            <li><strong>50</strong> Lessen € 1.750,-. ||<b>NU 15% KORTING</b></li>
+                            <li><b>1</b> Losse Les (60 min) € 50,-.</li>
+                            <li>Theorie Examen + Praktijk Examen € 120,-.</li>
+                            <li>Theorie Examen € 90,-.</li>
+                        </ul>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Vrachtwagen</h2>
+                        <ul>
+                            <li><strong>10</strong> Lessen € 450,-. ||<b>NU 5% KORTING</b></li>
+                            <li><strong>20</strong> Lessen € 900,-. ||<b>NU 9% KORTING</b></li>
+                            <li><strong>50</strong> Lessen € 2.250,-. ||<b>NU 15% KORTING</b></li>
+                            <li><b>1</b> Losse Les (60 min) € 60,- (exc. BTW).</li>
+                            <li>Theorie Examen + Praktijk Examen € 210,-.</li>
+                            <li>Theorie Examen € 180,-.</li>
+                        </ul>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Motor </h2>
+                        <ul>
+                            <li><strong>10</strong> Lessen € 250,-. ||<b>NU 5% KORTING</b></li>
+                            <li><strong>20</strong> Lessen € 500,-. ||<b>NU 9% KORTING</b></li>
+                            <li><strong>50</strong> Lessen € 1.250,-. ||<b>NU 15% KORTING</b></li>
+                            <li><b>1</b> Losse Les (60 min) € 40,-.</li>
+                            <li>Theorie Examen + Praktijk Examen € 100,-.</li>
+                            <li>Theorie Examen € 70,-.</li>
+                        </ul>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>            
+            </div>
+            <div class="prijs-tablepakketten">
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Auto</h2>
+                        <ul>
+                            <li><strong>10</strong> Lessen € 350,-. ||<b>NU 5% KORTING</b></li>
+                        </ul>
+                        <button id="auto10" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Auto</h2>
+                        <ul>
+                            <li><strong>20</strong> Lessen € 700,-. ||<b>NU 9% KORTING</b></li>
+                        </ul>
+                        <button id="auto20" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Auto</h2>
+                        <ul>
+                            <li><strong>50</strong> Lessen € 1.750,-. ||<b>NU 15% KORTING</b></li>
+                        </ul>
+                        <button id="auto50" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Auto</h2>
+                        <ul>
+                            <li><b>1</b> Losse Les (60 min) € 50,-.  ????????????</li>
+                        </ul>
+                        <button id="autoLos" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Auto</h2>
+                        <ul>
+                            <li>Theorie Examen + Praktijk Examen € 120,-.</li>
+                        </ul>
+                        <button id="autoTheorie_Praktijk" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Auto</h2>
+                        <ul>
+                            <li>Theorie Examen € 90,-.</li>
+                        </ul>
+                        <button id="autoTheorie" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>  
+                            
+            </div>
+            <div class="prijs-tablepakketten">
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Vrachtwagen</h2>
+                        <ul>
+                            <li><strong>10</strong> Lessen € 450,-. ||<b>NU 5% KORTING</b></li>
+                        </ul>
+                        <button id="Vracht10" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Vrachtwagen</h2>
+                        <ul>
+                            <li><strong>20</strong> Lessen € 900,-. ||<b>NU 9% KORTING</b></li>
+                        </ul>
+                        <button id="Vracht20" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Vrachtwagen</h2>
+                        <ul>
+                            <li><strong>50</strong> Lessen € 2.250,-. ||<b>NU 15% KORTING</b></li>
+                        </ul>
+                        <button id="Vracht50" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Vrachtwagen</h2>
+                        <ul>
+                            <li><b>1</b> Losse Les (60 min) € 60,- (exc. BTW).</li>
+                        </ul>
+                        <button id="VrachtLos" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Vrachtwagen</h2>
+                        <ul>
+                            <li>Theorie Examen + Praktijk Examen € 210,-.</li>
+                        </ul>
+                        <button id="VrachtTheorie_Praktijk" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Vrachtwagen</h2>
+                        <ul>
+                            <li>Theorie Examen € 180,-.</li>
+                        </ul>
+                        <button id="VrachtTheorie" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+
+
+            <div class="prijs-tablepakketten">
+            	<div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Motor </h2>
+                        <ul>
+                            <li><strong>10</strong> Lessen € 250,-. ||<b>NU 5% KORTING</b></li>
+                            
+                            
+                        </ul>
+                        <button id="Motor10" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Motor </h2>
+                        <ul>
+                            <li><strong>20</strong> Lessen € 500,-. ||<b>NU 9% KORTING</b></li>
+                        </ul>
+                        <button id="Motor20" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Motor </h2>
+                        <ul>
+                            <li><strong>50</strong> Lessen € 1.250,-. ||<b>NU 15% KORTING</b></li>
+                        </ul>
+                        <button id="Motor50" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Motor </h2>
+                        <ul>
+                            <li><b>1</b> Losse Les (60 min) € 40,-.  ????????????</li>
+                        </ul>
+                        <button id="MotorLos" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Motor </h2>
+                        <ul>
+                            <li>Theorie Examen + Praktijk Examen € 100,-.</li>
+                        </ul>
+                        <button id="MotorTheorie_Praktijk" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+                <div class="colpakketten">
+                    <div class="tablepakketten">
+                        <h2>Motor </h2>
+                        <ul>
+                            <li>Theorie Examen € 70,-.</li>
+                        </ul>
+                        <button id="MotorTheorie" onclick="bereken()">Kopen</button>
+                        <h5><strong>Betaling in termijnen is mogelijk </strong></h5>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
