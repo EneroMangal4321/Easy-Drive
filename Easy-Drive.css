@@ -133,12 +133,12 @@ div .details a{
 
 #navbar a{
   text-decoration: none;
-  color: #888;
+  color: #33ccff;
 }
 
 #navbar li.current a, #navbar a:hover{
-  color: #FE2E2E;
-  border-bottom: 3px solid #FE2E2E;
+  color: #666699;
+  border-bottom: 3px solid #666699;
   padding-bottom: 3px;
 }
 
@@ -365,8 +365,14 @@ div .details a{
 
 /* shoppingcart */
 
-.shoppingcart{
+.bodyshoppingcart{
+  height: 500px;
+  width: 100%;
+}
+
+.divshoppingcart{
   background: linear-gradient(to top, #33ccff 0%, #666699 100%);
+  height: 200%;
 }
 
 
