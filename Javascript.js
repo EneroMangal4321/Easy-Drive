@@ -1,8 +1,8 @@
 //Gemaakt door Enero & Ricardo
-var auto10 = 
-var auto20 =    
-var auto50 =   
-var autoLos = 
+var auto10 = 350;
+var auto20 = 700;   
+var auto50 = 1750;  
+var autoLos =  50;
 var autoTheorie_Praktijk = 
 var autoTheorie = 
 var Vracht10 = 
@@ -17,7 +17,7 @@ var Motor50 =
 var MotorLos = 
 var MotorTheorie_Praktijk = 
 var MotorTheorie = 
-<button id="MotorTheorie" onclick="bereken()">Kopen</button>
+
 
 document.getElementById('').value;
 document.getElementById('').value;
