@@ -1,5 +1,5 @@
 //Alle pakketten
-var auto10
+var auto10 = 
 var auto20
 var auto50
 var autolos1
