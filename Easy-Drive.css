@@ -121,7 +121,7 @@ body{
 
 #navbar li.current a, #navbar a:hover{
   color: #FE2E2E;
-  border-bottom: 3px solid #FE2E2E
+  border-bottom: 3px solid #FE2E2E;
   padding-bottom: 3px;
 }
 
@@ -258,26 +258,27 @@ body{
     list-style: none;
 }
 
-.tablepakketten a{
-    text-decoration: none;
-    color: #af0000a9;
-    border: 2px solid #af0000a9;
-    display: block;
-    padding: 10px 0;
-    margin: 10px 0;
-    border-radius: 40px;
-    text-transform: uppercase;
-    font-size: 14px;
-    transition: 0.5s linear;
+.tablepakketten button{
+  text-decoration: none;
+  color: #af0000a9;
+  border: 2px solid #af0000a9;
+  background-color: rgba(255, 159, 159, 0.466);
+  display: block;
+  padding: 10px 0;
+  margin: 10px 0;
+  margin: auto;
+  width: 200px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.5s linear;
 }
 
-.tablepakketten a:hover{
-    background-color: #af0000a9;
-    color: #fff;
+.tablepakketten button:hover{
+  background-color: #af0000a9;
+  color: #fff;
 }
-#winkelmand{
-    text-decoration: none;
-}
+
 
 @media screen and (max-width: 980px) {
     .colpakketten{
@@ -336,7 +337,7 @@ body{
   margin: 20px 0 70px 0;
 }
 
-}
+
 .rij::after{
   content: "";
   display: table;
@@ -480,7 +481,7 @@ body{
 
 @keyframes aaa{
   0%{
-    left: -110%
+    left: -110%;
     top: 90%;
   }50%{
     left: 10%;
