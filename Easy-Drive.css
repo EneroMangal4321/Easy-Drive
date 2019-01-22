@@ -307,9 +307,9 @@ div .details a{
 
 .tablepakketten button{
   text-decoration: none;
-  color: #af0000a9;
-  border: 2px solid #af0000a9;
-  background-color: rgba(255, 159, 159, 0.466);
+  color: #212131;
+  border: 2px solid #00b9f794;
+  background-color: #00b9f794;
   display: block;
   padding: 10px 0;
   margin: 10px 0;
@@ -322,8 +322,8 @@ div .details a{
 }
 
 .tablepakketten button:hover{
-  background-color: #af0000a9;
-  color: #fff;
+  background-color: #3b3b58;
+  color: #33ccff;
 }
 
 .Lessenpakketten{
