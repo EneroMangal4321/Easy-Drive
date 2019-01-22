@@ -138,7 +138,7 @@ div .details a{
 
 #navbar li.current a, #navbar a:hover{
   color: #FE2E2E;
-  border-bottom: 3px solid #FE2E2E;
+  border-bottom: 3px solid #33ccff;
   padding-bottom: 3px;
 }
 
@@ -146,7 +146,7 @@ div .details a{
 
 #showcase{
   background:url('./images/showcase1.jpg') no-repeat center center;
-  border-bottom: 1px solid #FE2E2E;
+  border-bottom: 1px solid #33ccff;
   margin-bottom: 0px;
 }
 
@@ -558,7 +558,7 @@ div .details a{
 /* Services */
 
 #info{
-  background:#333 url('../images/info-bg.jpg') no-repeat;
+  background:#333 url('./images/info-bg.jpg') no-repeat;
   color:#fff;
 }
 
@@ -580,25 +580,25 @@ div .details a{
 
 /* Over Ons*/
 
-#features h2{
+#overOns h2{
   font-size:35px;
   margin:0;
   padding-bottom:10px;
 }
 
-#features p{
+#overOns p{
   color:#888;
   margin:0;
   margin-bottom:40px;
 }
 
-#features .fa{
+#overOns .fa{
   font-size:60px;
   color:#56a79a;
 }
 
 /* Footer */
 #main-footer{
-  background:#56a79a;
+  background:#33ccff;
   color:#fff;
 }
